@@ -91,7 +91,7 @@ header{
 
   #footer{
     
-    margin-top: 256px;
+    margin-top: 190px;
     background-color:#f2f2f2;
 
   }
@@ -150,7 +150,6 @@ header{
   #footer #row-2 #right #row-ele{
 
     padding: 15px 10px;
-    
     font-size: 16px;
     color: #70757a;
     display: flex;
@@ -163,7 +162,7 @@ header{
 form input{
     
     margin:0 auto;
-    width: 584px;
+    width: 450px;
     border-radius:30px;
     border:1px solid #dcdcdc;
       height:48px;
@@ -187,20 +186,20 @@ form input:hover{
   height:20px;
   position:relative;
   top:-55px;
-  left:230px;
+  left:170px;
 }
 
 #serch-image{
   height:20px;
   position:relative;
   top:56px;
-  left:-265px;
+  left:-200px;
 }
 #complex-image{
   height:20px;
   position:relative;
   top:-100px;
-  left:260px;
+  left:200px;
 }
 
 button{
