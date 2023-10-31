@@ -1,4 +1,4 @@
-@media all and (min-width:1000px)
+@media all and (min-width:400px) and (max-width:1000px)
 {
 header{
     height: 60px;
@@ -60,13 +60,12 @@ header{
     display: flex;
     justify-content: center;
     height: 120px;
-    /* background-color: yellow; */
+
     margin-top: 180px;
 }
 
 .logo img{
-    /* height: 120px;
-    width: 350px; */
+  
     height: 92px;
     width:272px
 }
@@ -91,8 +90,7 @@ header{
   }
 
   #footer{
-    /* display: flex; */
-    /* margin-top: 260px; */
+    
     margin-top: 256px;
     background-color:#f2f2f2;
 
@@ -117,7 +115,7 @@ header{
     border-bottom: 1px solid #dadce0;
     font-size: 16px;
     color: #70757a;
-    /* display: flex; */
+ 
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -132,20 +130,18 @@ header{
   }
 
   #footer #row-2 #right{
-
+    margin-top: 10px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
   
   }
 
   #footer #row-2 #left #row-ele{
 
     padding: 15px 30px;
-    /* border-bottom: 1px solid #dadce0; */
     font-size: 16px;
     color: #70757a;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
 
 
@@ -154,11 +150,11 @@ header{
   #footer #row-2 #right #row-ele{
 
     padding: 15px 10px;
-    /* border-bottom: 1px solid #dadce0; */
+    
     font-size: 16px;
     color: #70757a;
     display: flex;
-    /* flex-wrap: wrap; */
+   
     justify-content: space-between;
 
 
@@ -234,7 +230,7 @@ form{
   justify-content: center;
 }
 button{
-  /* background-color:#f2f2f2; */
+ 
   background-color: #f8f9fa;
   border:none;
   color: #70757a;
